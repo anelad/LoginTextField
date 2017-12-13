@@ -39,7 +39,7 @@ let field = LoginTextField.init(frame: CGRect.zero)   //set your own rect.
 field.image = UIImage...
 ```
 
-### Left Image and "show/hide password button" Color.
+### Left Image and "show/hide password button" Color
 ```swift
 field.imageColor = UIColor...   //to set leftImage and "show/hide password button" tint color.
 ```
@@ -92,7 +92,7 @@ pod 'LoginTextField'
 ```
 
 
-###Carthage
+### Carthage
 ```ruby
 github "anelad/LoginTextField"
 ```
