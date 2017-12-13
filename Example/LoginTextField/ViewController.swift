@@ -13,7 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let x = LoginTextField.init(frame: CGRect.zero)
+        x.borderStyle = .none
     }
 
     override func didReceiveMemoryWarning() {

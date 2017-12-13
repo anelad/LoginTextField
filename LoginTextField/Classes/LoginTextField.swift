@@ -53,7 +53,7 @@ open class LoginTextField: UITextField {
     }
     
     @IBInspectable
-    open var imageErrorColor : UIColor = UIColor.red
+    open var errorColor : UIColor = UIColor.red
     
     @IBInspectable
     open var lineColor : UIColor = UIColor.white{
@@ -106,7 +106,7 @@ open class LoginTextField: UITextField {
     }
     
     fileprivate func commonInit(){
-        
+        borderStyle = .none
         let logoContainer = UIView.init(frame: CGRect(x: 0, y: 0, width: self.frame.size.height * 9 / 7, height: self.frame.size.height))
         let logoView = UIImageView.init(frame: CGRect(x: self.frame.size.height/4, y: self.frame.size.height/4, width: self.frame.size.height/2, height: self.frame.size.height/2))
         logoView.contentMode = .scaleAspectFit
@@ -152,9 +152,9 @@ open class LoginTextField: UITextField {
             return
         }
         
-        logoView.tintColor = isValid ? imageColor : imageErrorColor
-        line.backgroundColor = isValid ? lineColor : imageErrorColor
-        layer.borderColor = isValid ? borderColor.cgColor : imageErrorColor.cgColor
+        logoView.tintColor = isValid ? imageColor : errorColor
+        line.backgroundColor = isValid ? lineColor : errorColor
+        layer.borderColor = isValid ? borderColor.cgColor : errorColor.cgColor
     }
 }
 
