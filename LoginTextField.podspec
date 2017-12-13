@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LoginTextField'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'A tiny UITextField subclass to use in login / registration forms.'
 
 # This description is used to generate tags and improve search results.
