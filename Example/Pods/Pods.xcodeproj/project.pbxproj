@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC78994DAAF03276E9311738E6B638B /* LoginTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A36F2D5253BF8C4F3213442CD0CE4820 /* LoginTextField-dummy.m */; };
+		18368C8071794F019D4BB9A5E90A3560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1C43B65E0DE3380D5F5F778A265E9FEF /* Pods-LoginTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74AC0A3585772D07326A5C1DBEBA1722 /* Pods-LoginTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F669D2CEF26F238EDBA46AF7C67AF14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		625C974068A1C4C10C07AB117F3AF03B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D5D3CD5D48EEEA4C021A87379F175 /* Images.xcassets */; };
+		6B97B98D618EEEA54AA701CCCA6D3CB8 /* LoginTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625AFD308FA3D2397094AC7AF646E31 /* LoginTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F024F233EE2832200B41FD924D7C8D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8A290C3D5229C918C57929F73C746D37 /* Pods-LoginTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92820E80064767ECF8DB04A16AD60277 /* Pods-LoginTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A118CEA71FE1A9BE00F19BBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D5D3CD5D48EEEA4C021A87379F175 /* Images.xcassets */; };
+		A8551B661B52CCCB6483E44D172899B7 /* Pods-LoginTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DCCCBC3892337BFC99A88D8421D7E8 /* Pods-LoginTextField_Tests-dummy.m */; };
+		B70D27C9B1EF4057337C7735526A34B5 /* Pods-LoginTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6145B3B196C4F7AD8FAB2439E887C485 /* Pods-LoginTextField_Example-dummy.m */; };
+		CCEB2A3D320C74FA25898E41262B4428 /* LoginTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B4FBD1FD1FCC46FE0A5B91D24A07DFB0 /* LoginTextField.bundle */; };
+		DA09D3768F88F05AC6BA246E7C279075 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CE5E0DB210D29D8C494201D9609AFB /* LoginTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		196027D0AAAF899CE0905F7AD15FD478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46608CF640BC12F062BA454B3A3D182;
+			remoteInfo = "LoginTextField-LoginTextField";
+		};
+		B23F22CAAF5C5487AFEFF770B67EF5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A954AE0CFCD84B0B68D2437B8F07200;
+			remoteInfo = LoginTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B5C4882670596FB5E20B477054CC30 /* Pods-LoginTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LoginTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		1612B93E5D1ECD7E7A959E2F2A5C318E /* LoginTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LoginTextField.modulemap; sourceTree = "<group>"; };
+		1A6FEF2E6CFF37FC1B6512068643AECE /* Pods-LoginTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D2C05A6944F625D5894E3E7E2CDC8AA /* Pods-LoginTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginTextField_Tests-resources.sh"; sourceTree = "<group>"; };
+		26CE5E0DB210D29D8C494201D9609AFB /* LoginTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginTextField.swift; path = LoginTextField/Classes/LoginTextField.swift; sourceTree = "<group>"; };
+		3A00C3D6B0144AE6D0975BA833F7B023 /* ResourceBundle-LoginTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LoginTextField-Info.plist"; sourceTree = "<group>"; };
+		3EA6872702E709BEB1C76A0D72159C57 /* Pods-LoginTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4A6D6243B8979F04EDD33B69F3A0F871 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4A5D8DEFC84227E5E4B48AAF084D65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EDFF7BBE32D0B9D58975D74AA19F2E /* Pods-LoginTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		547C46D63245BBAA4DA46007A9695853 /* Pods-LoginTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5625AFD308FA3D2397094AC7AF646E31 /* LoginTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginTextField-umbrella.h"; sourceTree = "<group>"; };
+		6145B3B196C4F7AD8FAB2439E887C485 /* Pods-LoginTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66EE91DEC58F96936CC5FAF59932137D /* LoginTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginTextField-prefix.pch"; sourceTree = "<group>"; };
+		72C0453D1F448E3FDC47483E86C35330 /* Pods-LoginTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		74AC0A3585772D07326A5C1DBEBA1722 /* Pods-LoginTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		7EE97BD7E55B0F04E29024E2E2DE6F77 /* Pods-LoginTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LoginTextField_Example.modulemap"; sourceTree = "<group>"; };
+		7F2D5D3CD5D48EEEA4C021A87379F175 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LoginTextField/Assets/Images.xcassets; sourceTree = "<group>"; };
+		8F3FB4C091DBA8FBAD622F5670FF7ADA /* Pods-LoginTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		916E4B6D153AFDFBC583FBDA8D7CDDAF /* Pods-LoginTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92820E80064767ECF8DB04A16AD60277 /* Pods-LoginTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D585DC4FC61A37F71383D72CD2F45A9 /* LoginTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginTextField.xcconfig; sourceTree = "<group>"; };
+		A2DCCCBC3892337BFC99A88D8421D7E8 /* Pods-LoginTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		A36F2D5253BF8C4F3213442CD0CE4820 /* LoginTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginTextField-dummy.m"; sourceTree = "<group>"; };
+		A4E19432EA1F4640D39AB448E7425EDB /* Pods-LoginTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A8E452160E50A998281B358F235E2D0B /* Pods-LoginTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B0ED46B2CCF133CD50A72611BF285FA2 /* LoginTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FBD1FD1FCC46FE0A5B91D24A07DFB0 /* LoginTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DE10C44FB891978FE8C5D76B51BBC2 /* Pods_LoginTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80CBA7A43B3D753A86B80CEFAD9FD87 /* Pods_LoginTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFD49C7C57CA7878DE2560EFFDE00F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAB746F3BA5C923537F36F7C46546D4 /* Pods-LoginTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FFE256E7E4BE583BD1A69EA9BA2E102C /* Pods-LoginTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginTextField_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0238CFFEF0B387C4683273530B60D536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F669D2CEF26F238EDBA46AF7C67AF14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122AAFAA18CFF1E665F4AA2DBA4C3F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5539B813C6DD74C0412DD84C210358C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F024F233EE2832200B41FD924D7C8D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74345DA9EB679037B8DCB7F7502BFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18368C8071794F019D4BB9A5E90A3560 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2215389D0EFE582528BC551EACD95611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4FBD1FD1FCC46FE0A5B91D24A07DFB0 /* LoginTextField.bundle */,
+				B0ED46B2CCF133CD50A72611BF285FA2 /* LoginTextField.framework */,
+				C80CBA7A43B3D753A86B80CEFAD9FD87 /* Pods_LoginTextField_Example.framework */,
+				C3DE10C44FB891978FE8C5D76B51BBC2 /* Pods_LoginTextField_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		295B371A7078535665D5D0EDB3FD8DDE /* Pods-LoginTextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4A6D6243B8979F04EDD33B69F3A0F871 /* Info.plist */,
+				7EE97BD7E55B0F04E29024E2E2DE6F77 /* Pods-LoginTextField_Example.modulemap */,
+				53EDFF7BBE32D0B9D58975D74AA19F2E /* Pods-LoginTextField_Example-acknowledgements.markdown */,
+				8F3FB4C091DBA8FBAD622F5670FF7ADA /* Pods-LoginTextField_Example-acknowledgements.plist */,
+				6145B3B196C4F7AD8FAB2439E887C485 /* Pods-LoginTextField_Example-dummy.m */,
+				A8E452160E50A998281B358F235E2D0B /* Pods-LoginTextField_Example-frameworks.sh */,
+				FFE256E7E4BE583BD1A69EA9BA2E102C /* Pods-LoginTextField_Example-resources.sh */,
+				74AC0A3585772D07326A5C1DBEBA1722 /* Pods-LoginTextField_Example-umbrella.h */,
+				FEAB746F3BA5C923537F36F7C46546D4 /* Pods-LoginTextField_Example.debug.xcconfig */,
+				A4E19432EA1F4640D39AB448E7425EDB /* Pods-LoginTextField_Example.release.xcconfig */,
+			);
+			name = "Pods-LoginTextField_Example";
+			path = "Target Support Files/Pods-LoginTextField_Example";
+			sourceTree = "<group>";
+		};
+		57FEC771793FB122919888A75C974947 /* LoginTextField */ = {
+			isa = PBXGroup;
+			children = (
+				26CE5E0DB210D29D8C494201D9609AFB /* LoginTextField.swift */,
+				66A72CD54A0676CA666E1D682AF89740 /* Resources */,
+				E69C24B72D567F510D2DA960B033BE4A /* Support Files */,
+			);
+			name = LoginTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		66A72CD54A0676CA666E1D682AF89740 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F2D5D3CD5D48EEEA4C021A87379F175 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AF4DED4E074955644CDA9695E683E28D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2215389D0EFE582528BC551EACD95611 /* Products */,
+				CCDE578F63484960A1B1062CA3D9FA02 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4DED4E074955644CDA9695E683E28D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57FEC771793FB122919888A75C974947 /* LoginTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B4DE3E3B4FE8047F328E55A841AFDB21 /* Pods-LoginTextField_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A5D8DEFC84227E5E4B48AAF084D65 /* Info.plist */,
+				04B5C4882670596FB5E20B477054CC30 /* Pods-LoginTextField_Tests.modulemap */,
+				916E4B6D153AFDFBC583FBDA8D7CDDAF /* Pods-LoginTextField_Tests-acknowledgements.markdown */,
+				1A6FEF2E6CFF37FC1B6512068643AECE /* Pods-LoginTextField_Tests-acknowledgements.plist */,
+				A2DCCCBC3892337BFC99A88D8421D7E8 /* Pods-LoginTextField_Tests-dummy.m */,
+				72C0453D1F448E3FDC47483E86C35330 /* Pods-LoginTextField_Tests-frameworks.sh */,
+				1D2C05A6944F625D5894E3E7E2CDC8AA /* Pods-LoginTextField_Tests-resources.sh */,
+				92820E80064767ECF8DB04A16AD60277 /* Pods-LoginTextField_Tests-umbrella.h */,
+				547C46D63245BBAA4DA46007A9695853 /* Pods-LoginTextField_Tests.debug.xcconfig */,
+				3EA6872702E709BEB1C76A0D72159C57 /* Pods-LoginTextField_Tests.release.xcconfig */,
+			);
+			name = "Pods-LoginTextField_Tests";
+			path = "Target Support Files/Pods-LoginTextField_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCDE578F63484960A1B1062CA3D9FA02 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				295B371A7078535665D5D0EDB3FD8DDE /* Pods-LoginTextField_Example */,
+				B4DE3E3B4FE8047F328E55A841AFDB21 /* Pods-LoginTextField_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E69C24B72D567F510D2DA960B033BE4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDFD49C7C57CA7878DE2560EFFDE00F5 /* Info.plist */,
+				1612B93E5D1ECD7E7A959E2F2A5C318E /* LoginTextField.modulemap */,
+				9D585DC4FC61A37F71383D72CD2F45A9 /* LoginTextField.xcconfig */,
+				A36F2D5253BF8C4F3213442CD0CE4820 /* LoginTextField-dummy.m */,
+				66EE91DEC58F96936CC5FAF59932137D /* LoginTextField-prefix.pch */,
+				5625AFD308FA3D2397094AC7AF646E31 /* LoginTextField-umbrella.h */,
+				3A00C3D6B0144AE6D0975BA833F7B023 /* ResourceBundle-LoginTextField-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LoginTextField";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9E12C9BF85EDB8F39AC475CA77152160 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C43B65E0DE3380D5F5F778A265E9FEF /* Pods-LoginTextField_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92D5C401D8862654D0DFC032B1A95B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B97B98D618EEEA54AA701CCCA6D3CB8 /* LoginTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCE49D1CABEC13AE303D371B41705A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A290C3D5229C918C57929F73C746D37 /* Pods-LoginTextField_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1209287E73797CA464694139B386C42A /* Pods-LoginTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA063E2EE8314385CBC05AAE37D1CDC3 /* Build configuration list for PBXNativeTarget "Pods-LoginTextField_Example" */;
+			buildPhases = (
+				76A697D6CD30C9B3DE0C5E661C93F93A /* Sources */,
+				E74345DA9EB679037B8DCB7F7502BFA8 /* Frameworks */,
+				9E12C9BF85EDB8F39AC475CA77152160 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14AB99323197FF8E657254C7CD2F8F7 /* PBXTargetDependency */,
+			);
+			name = "Pods-LoginTextField_Example";
+			productName = "Pods-LoginTextField_Example";
+			productReference = C80CBA7A43B3D753A86B80CEFAD9FD87 /* Pods_LoginTextField_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A954AE0CFCD84B0B68D2437B8F07200 /* LoginTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799551C1A9D4966BC9EC4FAE1C4DD121 /* Build configuration list for PBXNativeTarget "LoginTextField" */;
+			buildPhases = (
+				463B6707187E63FF785FA4A919283EA1 /* Sources */,
+				5539B813C6DD74C0412DD84C210358C7 /* Frameworks */,
+				C1DE0F222DAA7A046503365AF21FFE73 /* Resources */,
+				A92D5C401D8862654D0DFC032B1A95B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6E9039DED15F71664043A16CE196E7 /* PBXTargetDependency */,
+			);
+			name = LoginTextField;
+			productName = LoginTextField;
+			productReference = B0ED46B2CCF133CD50A72611BF285FA2 /* LoginTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C46608CF640BC12F062BA454B3A3D182 /* LoginTextField-LoginTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63DC63CABFC8207AFE97AC4BBA9D805 /* Build configuration list for PBXNativeTarget "LoginTextField-LoginTextField" */;
+			buildPhases = (
+				0F81355FF2777715AD49490E28A3A0DF /* Sources */,
+				122AAFAA18CFF1E665F4AA2DBA4C3F88 /* Frameworks */,
+				BF98779B67BB861AFBB1A615DC988988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LoginTextField-LoginTextField";
+			productName = "LoginTextField-LoginTextField";
+			productReference = B4FBD1FD1FCC46FE0A5B91D24A07DFB0 /* LoginTextField.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DBCD1585AF240459B6820FB428A43E9A /* Pods-LoginTextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C148D6E69C13355D75163F8EA11E5CD3 /* Build configuration list for PBXNativeTarget "Pods-LoginTextField_Tests" */;
+			buildPhases = (
+				73C204BAB566D26E45372A0010DD07B6 /* Sources */,
+				0238CFFEF0B387C4683273530B60D536 /* Frameworks */,
+				EBCE49D1CABEC13AE303D371B41705A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LoginTextField_Tests";
+			productName = "Pods-LoginTextField_Tests";
+			productReference = C3DE10C44FB891978FE8C5D76B51BBC2 /* Pods_LoginTextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2215389D0EFE582528BC551EACD95611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A954AE0CFCD84B0B68D2437B8F07200 /* LoginTextField */,
+				C46608CF640BC12F062BA454B3A3D182 /* LoginTextField-LoginTextField */,
+				1209287E73797CA464694139B386C42A /* Pods-LoginTextField_Example */,
+				DBCD1585AF240459B6820FB428A43E9A /* Pods-LoginTextField_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF98779B67BB861AFBB1A615DC988988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625C974068A1C4C10C07AB117F3AF03B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DE0F222DAA7A046503365AF21FFE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEB2A3D320C74FA25898E41262B4428 /* LoginTextField.bundle in Resources */,
+				A118CEA71FE1A9BE00F19BBC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F81355FF2777715AD49490E28A3A0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463B6707187E63FF785FA4A919283EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC78994DAAF03276E9311738E6B638B /* LoginTextField-dummy.m in Sources */,
+				DA09D3768F88F05AC6BA246E7C279075 /* LoginTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C204BAB566D26E45372A0010DD07B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8551B661B52CCCB6483E44D172899B7 /* Pods-LoginTextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A697D6CD30C9B3DE0C5E661C93F93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70D27C9B1EF4057337C7735526A34B5 /* Pods-LoginTextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A14AB99323197FF8E657254C7CD2F8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LoginTextField;
+			target = 4A954AE0CFCD84B0B68D2437B8F07200 /* LoginTextField */;
+			targetProxy = B23F22CAAF5C5487AFEFF770B67EF5A7 /* PBXContainerItemProxy */;
+		};
+		FC6E9039DED15F71664043A16CE196E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LoginTextField-LoginTextField";
+			target = C46608CF640BC12F062BA454B3A3D182 /* LoginTextField-LoginTextField */;
+			targetProxy = 196027D0AAAF899CE0905F7AD15FD478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36D811524F26A24ECB24CDD7324F61BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D585DC4FC61A37F71383D72CD2F45A9 /* LoginTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LoginTextField";
+				INFOPLIST_FILE = "Target Support Files/LoginTextField/ResourceBundle-LoginTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = LoginTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4C9F570F26EFE6863DD67323E8C30951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAB746F3BA5C923537F36F7C46546D4 /* Pods-LoginTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginTextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginTextField_Example/Pods-LoginTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LoginTextField_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98B471846C780B72121630AEB0A1C9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D585DC4FC61A37F71383D72CD2F45A9 /* LoginTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LoginTextField";
+				INFOPLIST_FILE = "Target Support Files/LoginTextField/ResourceBundle-LoginTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = LoginTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9E58A2F918DDBBD3DF932B676404FE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547C46D63245BBAA4DA46007A9695853 /* Pods-LoginTextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginTextField_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginTextField_Tests/Pods-LoginTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LoginTextField_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3E91136D860F9E916F0F94897FDA1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E19432EA1F4640D39AB448E7425EDB /* Pods-LoginTextField_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginTextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginTextField_Example/Pods-LoginTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LoginTextField_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B85561D9F259315697EE48BDB81F3E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA6872702E709BEB1C76A0D72159C57 /* Pods-LoginTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginTextField_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginTextField_Tests/Pods-LoginTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LoginTextField_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1CB1ACCEAC755D4629C3843D03B1887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D585DC4FC61A37F71383D72CD2F45A9 /* LoginTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LoginTextField/LoginTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoginTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LoginTextField/LoginTextField.modulemap";
+				PRODUCT_NAME = LoginTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8B38DBA5E5AD9F75009803B41DDD228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D585DC4FC61A37F71383D72CD2F45A9 /* LoginTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LoginTextField/LoginTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoginTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LoginTextField/LoginTextField.modulemap";
+				PRODUCT_NAME = LoginTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799551C1A9D4966BC9EC4FAE1C4DD121 /* Build configuration list for PBXNativeTarget "LoginTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B38DBA5E5AD9F75009803B41DDD228 /* Debug */,
+				D1CB1ACCEAC755D4629C3843D03B1887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63DC63CABFC8207AFE97AC4BBA9D805 /* Build configuration list for PBXNativeTarget "LoginTextField-LoginTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D811524F26A24ECB24CDD7324F61BD /* Debug */,
+				98B471846C780B72121630AEB0A1C9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C148D6E69C13355D75163F8EA11E5CD3 /* Build configuration list for PBXNativeTarget "Pods-LoginTextField_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E58A2F918DDBBD3DF932B676404FE98 /* Debug */,
+				B85561D9F259315697EE48BDB81F3E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA063E2EE8314385CBC05AAE37D1CDC3 /* Build configuration list for PBXNativeTarget "Pods-LoginTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9F570F26EFE6863DD67323E8C30951 /* Debug */,
+				B3E91136D860F9E916F0F94897FDA1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

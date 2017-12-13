@@ -1,0 +1,27 @@
+{
+  "name": "LoginTextField",
+  "version": "1",
+  "summary": "A tiny UITextField subclass to use in login / registration forms.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/anelad/LoginTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Arda Oğul Üçpınar": "info@ardaucpinar.com"
+  },
+  "source": {
+    "git": "https://github.com/anelad/LoginTextField.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LoginTextField/Classes/**/*",
+  "resource_bundles": {
+    "LoginTextField": [
+      "LoginTextField/Assets/**/*.xcassets"
+    ]
+  }
+}

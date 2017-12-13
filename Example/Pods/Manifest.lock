@@ -1,0 +1,16 @@
+PODS:
+  - LoginTextField (1)
+
+DEPENDENCIES:
+  - LoginTextField (from `..`)
+
+EXTERNAL SOURCES:
+  LoginTextField:
+    :path: ..
+
+SPEC CHECKSUMS:
+  LoginTextField: 52d60afa68b7c19cbd0a691fc0d55bea8d761dce
+
+PODFILE CHECKSUM: 0fe44d07e62f604395f03a73e906fa8cba86a1cb
+
+COCOAPODS: 1.4.0.beta.2

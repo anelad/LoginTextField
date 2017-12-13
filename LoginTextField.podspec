@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LoginTextField'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LoginTextField.'
+  s.version          = '1'
+  s.summary          = 'A tiny UITextField subclass to use in login / registration forms.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,23 +18,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+LogintextField is a tiny subclas of UITextField. It's designed to fulfill almost any needs of a small forms like login or registration. 
                        DESC
 
-  s.homepage         = 'https://github.com/Arda Oğul Üçpınar/LoginTextField'
+  s.homepage         = 'https://github.com/anelad/LoginTextField'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Arda Oğul Üçpınar' => 'arda@avorna.com' }
-  s.source           = { :git => 'https://github.com/Arda Oğul Üçpınar/LoginTextField.git', :tag => s.version.to_s }
+  s.author           = { 'Arda Oğul Üçpınar' => 'info@ardaucpinar.com' }
+  s.source           = { :git => 'https://github.com/anelad/LoginTextField.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'LoginTextField/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'LoginTextField' => ['LoginTextField/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'LoginTextField' => ['LoginTextField/Assets/**/*.xcassets']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
