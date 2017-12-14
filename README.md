@@ -24,7 +24,7 @@ It has built-in support for validations. All you need to call `handleError(isVal
 
 You can initialize LoginTextField programmatically or in a storyboard/.xib.
 
-> If you are using storyboard or .xib file, you should set `borderStyle` to `.none`.
+> If you are using storyboard or .xib file, you should set `borderStyle` to `.none`. Otherwise you might experience unexpected behaviours, especially with corder radius.
 
 If you are using storyboards/.xibs you can set all the variables using interface builder.
 
