@@ -78,7 +78,7 @@ field.handleError(isValid: ....)   //this will change the left image color, the 
 ```
 
 ## Requirements
-LoginTextField requires min version of `iOS10`
+LoginTextField requires min version of `iOS10` and `Swift4`
 
 ## Installation
 
@@ -97,7 +97,7 @@ github "anelad/LoginTextField"
 ```
 
 ## Author
-Arda Oğul Üçpınar, info@ardaucpinar.com
+Arda Oğul Üçpınar, info@ardaucpinar.com
 
 ## Contribution
 Any contributions and suggestions are most welcome! Please update the README with any new features. Thanks!
