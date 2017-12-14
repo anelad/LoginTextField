@@ -77,9 +77,6 @@ field.borderColor = UIColor...
 field.handleError(isValid: ....)   //this will change the left image color, the seperator line color and the border color (if border width is set > 0).
 ```
 
-## Contribution
-Any contributions and suggestions are most welcome! Please update the README with any new features. Thanks!
-
 ## Requirements
 LoginTextField requires min version of `iOS10`
 
@@ -100,9 +97,10 @@ github "anelad/LoginTextField"
 ```
 
 ## Author
-
 Arda Oğul Üçpınar, info@ardaucpinar.com
 
-## License
+## Contribution
+Any contributions and suggestions are most welcome! Please update the README with any new features. Thanks!
 
+## License
 LoginTextField is available under the MIT license. See the LICENSE file for more info.
