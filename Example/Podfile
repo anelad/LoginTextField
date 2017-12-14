@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'LoginTextField_Example' do
-  pod 'LoginTextField', :path => '..'
+  pod 'LoginTextField', :path => '..', :testspecs => ['Test'] 
 
   target 'LoginTextField_Tests' do
     inherit! :search_paths

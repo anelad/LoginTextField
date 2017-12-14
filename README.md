@@ -43,7 +43,7 @@ field.image = UIImage...
 
 ### Left Image and "show/hide password button" Color
 ```swift
-field.imageColor = UIColor...
+field.defaultColor = UIColor...
 ```
 
 ### Placeholder Color
@@ -59,7 +59,7 @@ field.errorColor = UIColor...   //if you will use handleError(isValid:) function
 
 ### Seperator Line Color
 ```swift
-field.lineColor = UIColor...
+field.seperatorLineColor = UIColor...
 ```
 
 ### Corner Radius

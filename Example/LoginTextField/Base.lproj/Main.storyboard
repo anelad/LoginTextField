@@ -34,13 +34,13 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="user-field-icon"/>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageErrorColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
                                         <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -51,6 +51,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="errorBorderWidth">
+                                        <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
@@ -67,13 +70,13 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="user-field-icon"/>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageErrorColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
                                         <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -103,13 +106,13 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="user-field-icon"/>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageErrorColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
                                         <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -123,6 +126,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                         <color key="value" red="0.68659323449999998" green="0.84455484150000004" blue="0.47576683759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="errorBorderWidth">
+                                        <real key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
@@ -139,13 +145,13 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageErrorColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
                                         <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -157,6 +163,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showPasswordApperanceButton" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Attributed Placeholder Text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Mk-gc-7Gh" customClass="LoginTextField" customModule="LoginTextField">
@@ -172,13 +179,13 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                         <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="0.50502996575342463" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageErrorColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
                                         <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -205,13 +212,13 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageErrorColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
                                         <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -238,13 +245,13 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageErrorColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
                                         <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -274,13 +281,13 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
                                         <color key="value" red="0.96254223589999999" green="0.7295833826" blue="0.2384157777" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                         <color key="value" red="0.96818405389999995" green="0.58194106820000002" blue="0.59020966289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="imageErrorColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
                                         <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">

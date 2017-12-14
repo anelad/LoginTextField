@@ -1,16 +1,18 @@
 PODS:
-  - LoginTextField (1)
+  - LoginTextField (1.1.0)
+  - LoginTextField/Test (1.1.0)
 
 DEPENDENCIES:
   - LoginTextField (from `..`)
+  - LoginTextField/Test (from `..`)
 
 EXTERNAL SOURCES:
   LoginTextField:
     :path: ..
 
 SPEC CHECKSUMS:
-  LoginTextField: 52d60afa68b7c19cbd0a691fc0d55bea8d761dce
+  LoginTextField: 3dd127342905ffeeba25d07e2a258017d84b25f8
 
-PODFILE CHECKSUM: 0fe44d07e62f604395f03a73e906fa8cba86a1cb
+PODFILE CHECKSUM: 4e9aba903bed607906488dfd0daa70f7632eb43b
 
 COCOAPODS: 1.4.0.beta.2

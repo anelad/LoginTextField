@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LoginTextField'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'A tiny UITextField subclass to use in login / registration forms.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,12 @@ LogintextField is a tiny subclas of UITextField. It's designed to fulfill almost
 
   s.source_files = 'LoginTextField/Classes/**/*'
   
-  s.resource_bundles = {
-    'LoginTextField' => ['LoginTextField/Assets/**/*.xcassets']
-  }
+  s.resources = ['LoginTextField/Assets/**/*.xcassets']
+
+  s.test_spec 'Test' do |test_spec|
+    test_spec.source_files = ['LoginTextField/Tests/**/*', 'LoginTextField/Classes/**/*']
+    test_spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

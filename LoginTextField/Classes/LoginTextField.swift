@@ -20,40 +20,35 @@ import UIKit
     * All variables can be changed via Interface Builder.
  */
 open class LoginTextField: UITextField {
+    internal let imageView = UIImageView()
+    internal let seperatorLineView = UIView()
+    internal var passwordAppearanceButton : UIButton?
+
     
     ///Left image of the LogintextField.
     ///Setting this is mandatory, or you will see an empty area at the left of your LogintextField.
     @IBInspectable
     open var image : UIImage? {
-        didSet{
-            guard let logoView = leftView?.viewWithTag(1) as? UIImageView else{
-                print("[LoginFormTextField] [\(#function)] logoView is not initialized.")
+        set{
+            guard let image = newValue else{
+                imageView.image = nil
                 return
             }
-            guard let image = image else{
-                logoView.image = nil
-                return
-            }
-            logoView.image = image.withRenderingMode(.alwaysTemplate)
+            imageView.image = image.withRenderingMode(.alwaysTemplate)
+        }
+        get{
+            return imageView.image
         }
     }
     
     ///Left image color of the LogintextField. Also used for "show/hide password button" tint color.
     /// Default value is UIColor.black
     @IBInspectable
-    open var imageColor : UIColor = UIColor.black{
+    open var defaultColor : UIColor = UIColor.black{
         didSet{
-            guard let logoView = leftView?.viewWithTag(1) as? UIImageView else{
-                print("[LoginFormTextField] [\(#function)] logoView is not initialized.")
-                return
-            }
-            logoView.tintColor = imageColor
-            if isSecureTextEntry{
-                guard let eyeButton = rightView as? UIButton else{
-                    print("[LoginFormTextField] [\(#function)] eyeButton is not initialized.")
-                    return
-                }
-                eyeButton.tintColor = imageColor
+            imageView.tintColor = defaultColor
+            if isSecureTextEntry && showPasswordApperanceButton{
+                passwordAppearanceButton?.tintColor = defaultColor
             }
         }
     }
@@ -63,10 +58,22 @@ open class LoginTextField: UITextField {
     @IBInspectable
     open var placeholderColor : UIColor = UIColor.white{
         didSet{
-            if let placeholder = placeholder{
-                attributedPlaceholder = NSAttributedString.init(string: placeholder, attributes: [NSAttributedStringKey.font : font ?? UIFont.italicSystemFont(ofSize: 14), NSAttributedStringKey.foregroundColor : placeholderColor])
-            }
+            setPlaceholder()
         }
+    }
+    
+    open override var placeholder: String?{
+        didSet{
+            setPlaceholder()
+        }
+    }
+    
+    ///Creates attributedPlaceholder
+    fileprivate func setPlaceholder(){
+        guard let placeholder = placeholder else{
+            return
+        }
+        attributedPlaceholder = NSAttributedString.init(string: placeholder, attributes: [NSAttributedStringKey.font : font!, NSAttributedStringKey.foregroundColor : placeholderColor])
     }
     
     ///LogintextField's error text color.
@@ -78,22 +85,36 @@ open class LoginTextField: UITextField {
     ///LogintextField's borderWidth when error is shown
     ///It's default value is 0
     @IBInspectable
-    open var errorBorderWidth : CGFloat = 0{
-        didSet{
-            layer.borderWidth = borderWidth
-        }
-    }
+    open var errorBorderWidth : CGFloat = 0
     
     ///LoginTextField's seperator line color.
     ///Default value is black
     @IBInspectable
-    open var lineColor : UIColor = UIColor.black{
+    open var seperatorLineColor : UIColor = UIColor.black{
         didSet{
-            guard let line = leftView?.viewWithTag(2) else{
-                print("[LoginFormTextField] [\(#function)] line is not initialized.")
-                return
+            seperatorLineView.backgroundColor = seperatorLineColor
+        }
+    }
+    
+    ///Creates LoginTextField show/hide password button
+    ///Default value is black
+    @IBInspectable
+    open var showPasswordApperanceButton : Bool = false{
+        didSet{
+            if showPasswordApperanceButton{
+                if isSecureTextEntry{
+                    passwordAppearanceButton = UIButton.init(frame: CGRect.init(x: 0, y: 0, width: frame.size.height, height: frame.size.height))
+                    passwordAppearanceButton?.setImage(UIImage.init(named: "eye-open", in: Bundle.init(for: type(of: self)), compatibleWith: nil)?.withRenderingMode(.alwaysTemplate), for: .normal)
+                    passwordAppearanceButton?.tintColor = defaultColor
+                    passwordAppearanceButton?.addTarget(self, action: #selector(handlePasswordAppearenceButtonClick(_:)), for: .touchUpInside)
+                    passwordAppearanceButton?.tintColor = defaultColor
+                    rightView = passwordAppearanceButton
+                    rightViewMode = .always
+                }
             }
-            line.backgroundColor = lineColor
+            else{
+                rightView = nil
+            }
         }
     }
     
@@ -119,7 +140,7 @@ open class LoginTextField: UITextField {
     ///LogintextField's borderColor
     ///It's default value is UIColor.clear
     @IBInspectable
-    open var borderColor : UIColor = UIColor.clear{
+    open var borderColor : UIColor = UIColor.black{
         didSet{
             layer.borderColor = borderColor.cgColor
         }
@@ -139,32 +160,26 @@ open class LoginTextField: UITextField {
     ///Function called by all initialization functions to set-up LogintextField.
     fileprivate func commonInit(){
         borderStyle = .none
-        let logoContainer = UIView.init(frame: CGRect(x: 0, y: 0, width: self.frame.size.height * 5 / 4, height: self.frame.size.height))
-        let logoView = UIImageView.init(frame: CGRect(x: self.frame.size.height/4, y: self.frame.size.height/4, width: self.frame.size.height/2, height: self.frame.size.height/2))
-        logoView.contentMode = .scaleAspectFit
-        logoView.tag = 1
-        logoContainer.addSubview(logoView)
         
-        let line = UIView.init(frame: CGRect(x: self.frame.size.height, y: 5, width: 0.5, height: self.frame.size.height - 10))
-        line.tag = 2
-        line.backgroundColor = lineColor
-        logoContainer.addSubview(line)
+        leftView = UIView.init(frame: CGRect(x: 0, y: 0, width: self.frame.size.height * 5 / 4, height: self.frame.size.height))
         
-        self.leftView = logoContainer
+        imageView.frame = CGRect(x: self.frame.size.height/4, y: self.frame.size.height/4, width: self.frame.size.height/2, height: self.frame.size.height/2)
+        imageView.contentMode = .scaleAspectFit
+        imageView.tag = 1
+        leftView!.addSubview(imageView)
+
+        seperatorLineView.frame = CGRect(x: self.frame.size.height, y: 5, width: 0.5, height: self.frame.size.height - 10)
+        seperatorLineView.tag = 2
+        seperatorLineView.backgroundColor = seperatorLineColor
+        leftView!.addSubview(seperatorLineView)
+        
         self.leftViewMode = .always
-        
-        if isSecureTextEntry{
-            let button = UIButton.init(frame: CGRect.init(x: 0, y: 0, width: frame.size.height, height: frame.size.height))
-            button.setImage(UIImage.init(named: "eye-open", in: Bundle.init(for: type(of: self)), compatibleWith: nil)?.withRenderingMode(.alwaysTemplate), for: .normal)
-            button.tintColor = imageColor
-            button.addTarget(self, action: #selector(handleEyeButtonClick(_:)), for: .touchUpInside)
-            rightView = button
-            rightViewMode = .always
-        }
+        imageView.tintColor = defaultColor
+        seperatorLineView.backgroundColor = defaultColor
     }
     
     ///Funtion to handle show/hide password
-    @objc fileprivate func handleEyeButtonClick(_ sender: UIButton){
+    @objc fileprivate func handlePasswordAppearenceButtonClick(_ sender: UIButton){
         if isSecureTextEntry{
             sender.setImage(UIImage.init(named: "eye-close", in: Bundle.init(for: type(of: self)), compatibleWith: nil)?.withRenderingMode(.alwaysTemplate), for: .normal)
         }
@@ -178,18 +193,9 @@ open class LoginTextField: UITextField {
     ///You can show error inside the LoginTextView using this function.
     /// - parameter isValid: Boolean value that indicates validation is successful or not.
     public func handleError(isValid : Bool){
-        guard let logoView = leftView?.viewWithTag(1) as? UIImageView else{
-            print("[LoginFormTextField] [\(#function)] logoView is not initialized.")
-            return
-        }
         
-        guard let line = leftView?.viewWithTag(2) else{
-            print("[LoginFormTextField] [\(#function)] lineView is not initialized.")
-            return
-        }
-        
-        logoView.tintColor = isValid ? imageColor : errorColor
-        line.backgroundColor = isValid ? lineColor : errorColor
+        imageView.tintColor = isValid ? defaultColor : errorColor
+        seperatorLineView.backgroundColor = isValid ? seperatorLineColor : errorColor
         layer.borderWidth = isValid ? borderWidth : errorBorderWidth
         layer.borderColor = isValid ? borderColor.cgColor : errorColor.cgColor
         
