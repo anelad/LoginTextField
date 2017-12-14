@@ -43,12 +43,12 @@ field.image = UIImage...
 
 ### Left Image and "show/hide password button" Color
 ```swift
-field.imageColor = UIColor...   //to set leftImage and "show/hide password button" tint color.
+field.imageColor = UIColor...
 ```
 
 ### Placeholder Color
 ```swift
-field.placeholderColor = UIColor...   //to set placeholder text color.
+field.placeholderColor = UIColor...
 ```
 
 ### Error Color
