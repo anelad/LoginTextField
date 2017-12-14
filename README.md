@@ -51,8 +51,9 @@ field.imageColor = UIColor...
 field.placeholderColor = UIColor...
 ```
 
-### Error Color
+### Error
 ```swift
+field.errorBorderWidth = CGFloat...
 field.errorColor = UIColor...   //if you will use handleError(isValid:) function, you should specify an error color for validation errors. This color is used when handleError(isValid:) return false.
 ```
 
