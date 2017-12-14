@@ -12,7 +12,7 @@ LoginTextField's almost all subs can change its color, including the placeholder
 
 It has built-in support for validations. All you need to call `handleError(isValid:)` function. You can do validation easily using [Validator](https://github.com/adamwaite/Validator) by Adam Waite.
 
-![](RAEDMEAssets/LoginTextField.gif)
+![](/READMEAssets/LoginTextField.gif)
 
 ## Features
 * All variables are bound to the storyboards/.xibs via IBInspectables. 
