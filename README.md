@@ -75,7 +75,7 @@ field.borderColor = UIColor...
 
 ### Handling Validation Errors
 ```swift
-field.handleError(isValid: ....)   //this will change the left image color, the seperator line color and the border color (if border width is set > 0).
+field.handleError(isValid: ....)   //this will change the left image color, the seperator line color and the border color.
 ```
 
 ## Requirements
