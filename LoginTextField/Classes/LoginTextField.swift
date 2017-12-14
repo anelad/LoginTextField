@@ -107,13 +107,13 @@ open class LoginTextField: UITextField {
     
     fileprivate func commonInit(){
         borderStyle = .none
-        let logoContainer = UIView.init(frame: CGRect(x: 0, y: 0, width: self.frame.size.height * 9 / 7, height: self.frame.size.height))
+        let logoContainer = UIView.init(frame: CGRect(x: 0, y: 0, width: self.frame.size.height * 5 / 4, height: self.frame.size.height))
         let logoView = UIImageView.init(frame: CGRect(x: self.frame.size.height/4, y: self.frame.size.height/4, width: self.frame.size.height/2, height: self.frame.size.height/2))
         logoView.contentMode = .scaleAspectFit
         logoView.tag = 1
         logoContainer.addSubview(logoView)
         
-        let line = UIView.init(frame: CGRect(x: self.frame.size.height/8*7 + 10, y: 5, width: 0.5, height: self.frame.size.height - 10))
+        let line = UIView.init(frame: CGRect(x: self.frame.size.height, y: 5, width: 0.5, height: self.frame.size.height - 10))
         line.tag = 2
         line.backgroundColor = lineColor
         logoContainer.addSubview(line)
@@ -154,7 +154,10 @@ open class LoginTextField: UITextField {
         
         logoView.tintColor = isValid ? imageColor : errorColor
         line.backgroundColor = isValid ? lineColor : errorColor
-        layer.borderColor = isValid ? borderColor.cgColor : errorColor.cgColor
+        if borderWidth > 0{
+            layer.borderColor = isValid ? borderColor.cgColor : errorColor.cgColor
+        }
+        
     }
 }
 

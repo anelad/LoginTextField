@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Different images" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hz2-9s-AbB" customClass="LoginTextField" customModule="LoginTextField">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hz2-9s-AbB" customClass="LoginTextField" customModule="LoginTextField">
                                 <rect key="frame" x="32.5" y="187" width="310" height="35"/>
                                 <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.96818405389999995" green="0.58194106820000002" blue="0.59020966289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -31,7 +31,7 @@
                                 </constraints>
                                 <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="user-field-icon"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
@@ -54,7 +54,76 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rcm-rL-Px9" customClass="LoginTextField" customModule="LoginTextField">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="This will show error" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xZv-QH-zO4" customClass="LoginTextField" customModule="LoginTextField">
+                                <rect key="frame" x="32" y="445" width="310" height="35"/>
+                                <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.96818405389999995" green="0.58194106820000002" blue="0.59020966289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="2k6-xT-P8V"/>
+                                    <constraint firstAttribute="width" constant="310" id="tN9-EY-yfo"/>
+                                </constraints>
+                                <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="user-field-icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="imageErrorColor">
+                                        <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="This will show erroras a bordered field" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Vb-Lv-Ohc" customClass="LoginTextField" customModule="LoginTextField">
+                                <rect key="frame" x="32" y="488" width="310" height="35"/>
+                                <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.96818405389999995" green="0.58194106820000002" blue="0.59020966289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="5av-90-hDH"/>
+                                    <constraint firstAttribute="width" constant="310" id="R6a-d7-smQ"/>
+                                </constraints>
+                                <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="user-field-icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="imageErrorColor">
+                                        <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.68659323449999998" green="0.84455484150000004" blue="0.47576683759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rcm-rL-Px9" customClass="LoginTextField" customModule="LoginTextField">
                                 <rect key="frame" x="32" y="230" width="310" height="35"/>
                                 <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.96818405389999995" green="0.58194106820000002" blue="0.59020966289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -64,7 +133,7 @@
                                 </constraints>
                                 <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
@@ -87,7 +156,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Attributed Placeholder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Mk-gc-7Gh" customClass="LoginTextField" customModule="LoginTextField">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Attributed Placeholder Text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Mk-gc-7Gh" customClass="LoginTextField" customModule="LoginTextField">
                                 <rect key="frame" x="32" y="273" width="310" height="35"/>
                                 <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -97,14 +166,14 @@
                                 </constraints>
                                 <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
                                         <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="0.50502996575342463" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="imageErrorColor">
                                         <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -120,7 +189,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Without corner radius" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kdC-Yc-F5u" customClass="LoginTextField" customModule="LoginTextField">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kdC-Yc-F5u" customClass="LoginTextField" customModule="LoginTextField">
                                 <rect key="frame" x="32" y="316" width="310" height="35"/>
                                 <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -130,7 +199,7 @@
                                 </constraints>
                                 <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
@@ -153,7 +222,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="With Border (3px)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Ht-Vl-sER" customClass="LoginTextField" customModule="LoginTextField">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Ht-Vl-sER" customClass="LoginTextField" customModule="LoginTextField">
                                 <rect key="frame" x="32" y="359" width="310" height="35"/>
                                 <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -163,7 +232,7 @@
                                 </constraints>
                                 <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
@@ -189,7 +258,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Different colors" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2x9-VU-Tkb" customClass="LoginTextField" customModule="LoginTextField">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2x9-VU-Tkb" customClass="LoginTextField" customModule="LoginTextField">
                                 <rect key="frame" x="32" y="402" width="310" height="35"/>
                                 <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -199,7 +268,7 @@
                                 </constraints>
                                 <color key="textColor" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
@@ -225,23 +294,49 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFj-Xw-rto">
+                                <rect key="frame" x="249" y="531" width="93" height="30"/>
+                                <state key="normal" title="Remove error"/>
+                                <connections>
+                                    <action selector="removeError:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zed-gw-U8d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r54-Um-8aH">
+                                <rect key="frame" x="32" y="531" width="76" height="30"/>
+                                <state key="normal" title="Show error"/>
+                                <connections>
+                                    <action selector="showError:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8Ra-hB-pdn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2x9-VU-Tkb" firstAttribute="top" secondItem="8Ht-Vl-sER" secondAttribute="bottom" constant="8" id="1bm-3t-ETt"/>
                             <constraint firstItem="3Mk-gc-7Gh" firstAttribute="centerX" secondItem="Rcm-rL-Px9" secondAttribute="centerX" id="6w3-8P-8Ob"/>
+                            <constraint firstItem="r54-Um-8aH" firstAttribute="top" secondItem="6Vb-Lv-Ohc" secondAttribute="bottom" constant="8" id="78z-KO-bmH"/>
                             <constraint firstItem="8Ht-Vl-sER" firstAttribute="top" secondItem="kdC-Yc-F5u" secondAttribute="bottom" constant="8" id="9ad-Pe-Dat"/>
                             <constraint firstItem="3Mk-gc-7Gh" firstAttribute="top" secondItem="Rcm-rL-Px9" secondAttribute="bottom" constant="8" id="Ds3-Uy-Ahn"/>
+                            <constraint firstItem="r54-Um-8aH" firstAttribute="leading" secondItem="6Vb-Lv-Ohc" secondAttribute="leading" id="E8e-gW-wcH"/>
                             <constraint firstItem="Rcm-rL-Px9" firstAttribute="centerX" secondItem="hz2-9s-AbB" secondAttribute="centerX" id="FlY-Q2-CCK"/>
                             <constraint firstItem="hz2-9s-AbB" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="FoS-M0-Cz3"/>
+                            <constraint firstItem="xZv-QH-zO4" firstAttribute="top" secondItem="2x9-VU-Tkb" secondAttribute="bottom" constant="8" id="HSe-Lh-gLP"/>
                             <constraint firstItem="8Ht-Vl-sER" firstAttribute="centerX" secondItem="kdC-Yc-F5u" secondAttribute="centerX" id="IDI-yn-mX0"/>
                             <constraint firstItem="kdC-Yc-F5u" firstAttribute="centerX" secondItem="3Mk-gc-7Gh" secondAttribute="centerX" id="LAr-mQ-AKn"/>
                             <constraint firstItem="kdC-Yc-F5u" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Of6-F8-J00"/>
+                            <constraint firstItem="GFj-Xw-rto" firstAttribute="top" secondItem="6Vb-Lv-Ohc" secondAttribute="bottom" constant="8" id="Rhd-hU-lyz"/>
                             <constraint firstItem="2x9-VU-Tkb" firstAttribute="centerX" secondItem="8Ht-Vl-sER" secondAttribute="centerX" id="WMF-Lk-4Iv"/>
                             <constraint firstItem="kdC-Yc-F5u" firstAttribute="top" secondItem="3Mk-gc-7Gh" secondAttribute="bottom" constant="8" id="akU-dy-ePU"/>
+                            <constraint firstItem="xZv-QH-zO4" firstAttribute="centerX" secondItem="2x9-VU-Tkb" secondAttribute="centerX" id="eKY-N2-vP1"/>
+                            <constraint firstItem="GFj-Xw-rto" firstAttribute="trailing" secondItem="6Vb-Lv-Ohc" secondAttribute="trailing" id="eyF-95-cnF"/>
                             <constraint firstItem="Rcm-rL-Px9" firstAttribute="top" secondItem="hz2-9s-AbB" secondAttribute="bottom" constant="8" id="olO-eI-1Vn"/>
+                            <constraint firstItem="6Vb-Lv-Ohc" firstAttribute="centerX" secondItem="xZv-QH-zO4" secondAttribute="centerX" id="vqf-YD-f2R"/>
+                            <constraint firstItem="6Vb-Lv-Ohc" firstAttribute="top" secondItem="xZv-QH-zO4" secondAttribute="bottom" constant="8" id="wS6-Ug-fKl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="errorShowingBorderredField" destination="6Vb-Lv-Ohc" id="nVf-96-dBz"/>
+                        <outlet property="errorShowingField" destination="xZv-QH-zO4" id="BKc-RO-4B1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

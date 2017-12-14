@@ -22,5 +22,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var errorShowingField: LoginTextField!
+    @IBOutlet weak var errorShowingBorderredField: LoginTextField!
+    @IBAction func showError(_ sender: Any) {
+        errorShowingField.handleError(isValid: false)
+        errorShowingBorderredField.handleError(isValid: false)
+    }
+    @IBAction func removeError(_ sender: Any) {
+        errorShowingField.handleError(isValid: true)
+        errorShowingBorderredField.handleError(isValid: true)
+    }
 }
 
