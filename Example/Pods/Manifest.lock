@@ -11,8 +11,8 @@ EXTERNAL SOURCES:
     :path: ..
 
 SPEC CHECKSUMS:
-  LoginTextField: 3dd127342905ffeeba25d07e2a258017d84b25f8
+  LoginTextField: cf6ca46aeeda7d6ec384c907b5cae1fabf3ebebf
 
 PODFILE CHECKSUM: 4e9aba903bed607906488dfd0daa70f7632eb43b
 
-COCOAPODS: 1.4.0.beta.2
+COCOAPODS: 1.3.1
