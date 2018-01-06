@@ -42,11 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04B5C4882670596FB5E20B477054CC30 /* Pods-LoginTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LoginTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		04B5C4882670596FB5E20B477054CC30 /* Pods-LoginTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LoginTextField_Tests.modulemap"; sourceTree = "<group>"; };
 		1A6FEF2E6CFF37FC1B6512068643AECE /* Pods-LoginTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1D2C05A6944F625D5894E3E7E2CDC8AA /* Pods-LoginTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginTextField_Tests-resources.sh"; sourceTree = "<group>"; };
 		2D6602E66D444F9125AD791EDD3A9DB0 /* LoginTextField-Unit-Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "LoginTextField-Unit-Tests"; path = "LoginTextField-Unit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3996B1FBAA08CE58809A6207756759C0 /* LoginTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LoginTextField.modulemap; sourceTree = "<group>"; };
+		3996B1FBAA08CE58809A6207756759C0 /* LoginTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LoginTextField.modulemap; sourceTree = "<group>"; };
 		3EA6872702E709BEB1C76A0D72159C57 /* Pods-LoginTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		471DEED3E65C2C2AC82BB38376F9A8C8 /* LoginTextField.unit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginTextField.unit.xcconfig; sourceTree = "<group>"; };
 		4A6D6243B8979F04EDD33B69F3A0F871 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,11 +58,11 @@
 		6501D2BC4ACEF40BBB0626901BB897D1 /* LoginTextField-Unit-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "LoginTextField-Unit-Tests-resources.sh"; sourceTree = "<group>"; };
 		72C0453D1F448E3FDC47483E86C35330 /* Pods-LoginTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		74AC0A3585772D07326A5C1DBEBA1722 /* Pods-LoginTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginTextField_Example-umbrella.h"; sourceTree = "<group>"; };
-		7EE97BD7E55B0F04E29024E2E2DE6F77 /* Pods-LoginTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LoginTextField_Example.modulemap"; sourceTree = "<group>"; };
+		7EE97BD7E55B0F04E29024E2E2DE6F77 /* Pods-LoginTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LoginTextField_Example.modulemap"; sourceTree = "<group>"; };
 		8F3FB4C091DBA8FBAD622F5670FF7ADA /* Pods-LoginTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		916E4B6D153AFDFBC583FBDA8D7CDDAF /* Pods-LoginTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		92820E80064767ECF8DB04A16AD60277 /* Pods-LoginTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		985A07B0E0966FBD42EF63D1C5EB429F /* LoginTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginTextField-prefix.pch"; sourceTree = "<group>"; };
 		9AD865E9B7B57BD21D9C0ECE13C5289B /* LoginTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginTextField-dummy.m"; sourceTree = "<group>"; };
 		9B7A96310F3507B17775DAACFADD9433 /* LoginTextField-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "LoginTextField-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -71,13 +71,13 @@
 		A4E19432EA1F4640D39AB448E7425EDB /* Pods-LoginTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A8E452160E50A998281B358F235E2D0B /* Pods-LoginTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		ACB5E94ACACE73DE35969584868BAB06 /* LoginTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B97C10E62534D5246F045CCDAFF2D7C6 /* Pods_LoginTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoginTextField_Tests.framework; path = "Pods-LoginTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEDA517A7F0520BD64F3F48F77D866F7 /* Pods_LoginTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoginTextField_Example.framework; path = "Pods-LoginTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97C10E62534D5246F045CCDAFF2D7C6 /* Pods_LoginTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDA517A7F0520BD64F3F48F77D866F7 /* Pods_LoginTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AA7FE797D71C8298CDA453000DCD02 /* LoginTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginTextField-umbrella.h"; sourceTree = "<group>"; };
 		C7ACB9D5702B6CB3CF5158A72A16F478 /* LoginTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginTextField.swift; path = LoginTextField/Classes/LoginTextField.swift; sourceTree = "<group>"; };
 		DC60520AB6C811FF81B0E786B6206B43 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LoginTextField/Assets/Images.xcassets; sourceTree = "<group>"; };
 		E5B8ACC8613B1FCF96AA1ECAC7EE2E91 /* LoginTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginTextField.xcconfig; sourceTree = "<group>"; };
-		E6011DD4FFB214B7E97310E504FE15A8 /* LoginTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoginTextField.framework; path = LoginTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6011DD4FFB214B7E97310E504FE15A8 /* LoginTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83B238686A8EB34A161D6CF49D789E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FEAB746F3BA5C923537F36F7C46546D4 /* Pods-LoginTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FFE256E7E4BE583BD1A69EA9BA2E102C /* Pods-LoginTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginTextField_Example-resources.sh"; sourceTree = "<group>"; };
@@ -620,6 +620,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -675,6 +676,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
