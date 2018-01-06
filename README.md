@@ -91,12 +91,6 @@ it, simply add the following line to your Podfile:
 pod 'LoginTextField'
 ```
 
-
-### Carthage
-```ruby
-github "anelad/LoginTextField"
-```
-
 ## Author
 Arda Oğul Üçpınar, info@ardaucpinar.com
 
