@@ -15,6 +15,8 @@
 		A14A57772001C3B9003F5711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14A57752001C3B8003F5711 /* ViewController.swift */; };
 		A14A57782001C3B9003F5711 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14A57762001C3B8003F5711 /* Images.xcassets */; };
 		A14A577A2001C3FB003F5711 /* LoginTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A577B2001C3FB003F5711 /* LoginTextField.framework */; };
+		A14A578B2001D05B003F5711 /* LoginTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A577B2001C3FB003F5711 /* LoginTextField.framework */; };
+		A14A578C2001D05B003F5711 /* LoginTextField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A14A577B2001C3FB003F5711 /* LoginTextField.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,20 @@
 			remoteInfo = Example;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A14A578D2001D05B003F5711 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A14A578C2001D05B003F5711 /* LoginTextField.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A14A57442001C37F003F5711 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14A578B2001D05B003F5711 /* LoginTextField.framework in Frameworks */,
 				A14A577A2001C3FB003F5711 /* LoginTextField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +164,7 @@
 				A14A57402001C37F003F5711 /* Sources */,
 				A14A57412001C37F003F5711 /* Frameworks */,
 				A14A57422001C37F003F5711 /* Resources */,
+				A14A578D2001D05B003F5711 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
