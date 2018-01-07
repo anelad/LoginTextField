@@ -23,6 +23,9 @@
   "resources": [
     "LoginTextField/Assets/**/*.xcassets"
   ],
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.0"
+  },
   "testspecs": [
     {
       "name": "Test",
