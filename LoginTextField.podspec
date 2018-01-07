@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source_files = 'LoginTextField/Classes/**/*'
   s.resources = ['LoginTextField/Assets/**/*.xcassets']
   s.test_spec 'Test' do |test_spec|
-    test_spec.source_files = ['LoginTextField/LoginTextFieldTests/**/*', 'LoginTextField/Classes/**/*']
+    test_spec.source_files = ['LoginTextField/LoginTextFieldTests/**/*.swift', 'LoginTextField/Classes/**/*']
     test_spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   end
 
