@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LoginTextField'
-  s.version          = '1.2.0'
+  s.version          = '1.3.0'
   s.summary          = 'A tiny UITextField subclass to use in login / registration forms.'
 
   s.description      = <<-DESC

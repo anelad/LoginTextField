@@ -12,6 +12,7 @@
 		A12D6CA32001A6EC00B545B4 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D6C9E2001A6EC00B545B4 /* LoginTextField.swift */; };
 		A12D6CA42001A6EC00B545B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12D6CA02001A6EC00B545B4 /* Images.xcassets */; };
 		A12D6CA72001A70D00B545B4 /* LoginTextFieldTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D6CA62001A70D00B545B4 /* LoginTextFieldTest.swift */; };
+		A12D6CAB2001BE6400B545B4 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D6C9E2001A6EC00B545B4 /* LoginTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A12D6CA72001A70D00B545B4 /* LoginTextFieldTest.swift in Sources */,
+				A12D6CAB2001BE6400B545B4 /* LoginTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

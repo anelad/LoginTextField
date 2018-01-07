@@ -20,9 +20,9 @@ import UIKit
     * All variables can be changed via Interface Builder.
  */
 open class LoginTextField: UITextField {
-    internal let imageView = UIImageView()
-    internal let seperatorLineView = UIView()
-    internal var passwordAppearanceButton : UIButton?
+    open let imgView = UIImageView()
+    open let seperatorLineView = UIView()
+    open var passwordAppearanceButton : UIButton?
 
     
     ///Left image of the LogintextField.
@@ -31,13 +31,13 @@ open class LoginTextField: UITextField {
     open var image : UIImage? {
         set{
             guard let image = newValue else{
-                imageView.image = nil
+                imgView.image = nil
                 return
             }
-            imageView.image = image.withRenderingMode(.alwaysTemplate)
+            imgView.image = image.withRenderingMode(.alwaysTemplate)
         }
         get{
-            return imageView.image
+            return imgView.image
         }
     }
     
@@ -46,7 +46,7 @@ open class LoginTextField: UITextField {
     @IBInspectable
     open var defaultColor : UIColor = UIColor.black{
         didSet{
-            imageView.tintColor = defaultColor
+            imgView.tintColor = defaultColor
             if isSecureTextEntry && showPasswordApperanceButton{
                 passwordAppearanceButton?.tintColor = defaultColor
             }
@@ -163,10 +163,10 @@ open class LoginTextField: UITextField {
         
         leftView = UIView.init(frame: CGRect(x: 0, y: 0, width: self.frame.size.height * 5 / 4, height: self.frame.size.height))
         
-        imageView.frame = CGRect(x: self.frame.size.height/4, y: self.frame.size.height/4, width: self.frame.size.height/2, height: self.frame.size.height/2)
-        imageView.contentMode = .scaleAspectFit
-        imageView.tag = 1
-        leftView!.addSubview(imageView)
+        imgView.frame = CGRect(x: self.frame.size.height/4, y: self.frame.size.height/4, width: self.frame.size.height/2, height: self.frame.size.height/2)
+        imgView.contentMode = .scaleAspectFit
+        imgView.tag = 1
+        leftView!.addSubview(imgView)
 
         seperatorLineView.frame = CGRect(x: self.frame.size.height, y: 5, width: 0.5, height: self.frame.size.height - 10)
         seperatorLineView.tag = 2
@@ -174,7 +174,7 @@ open class LoginTextField: UITextField {
         leftView!.addSubview(seperatorLineView)
         
         self.leftViewMode = .always
-        imageView.tintColor = defaultColor
+        imgView.tintColor = defaultColor
         seperatorLineView.backgroundColor = defaultColor
     }
     
@@ -194,7 +194,7 @@ open class LoginTextField: UITextField {
     /// - parameter isValid: Boolean value that indicates validation is successful or not.
     public func handleError(isValid : Bool){
         
-        imageView.tintColor = isValid ? defaultColor : errorColor
+        imgView.tintColor = isValid ? defaultColor : errorColor
         seperatorLineView.backgroundColor = isValid ? seperatorLineColor : errorColor
         layer.borderWidth = isValid ? borderWidth : errorBorderWidth
         layer.borderColor = isValid ? borderColor.cgColor : errorColor.cgColor
