@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x6O-fn-5Hr">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="zl1-8s-Sko">
+            <objects>
+                <viewController id="x6O-fn-5Hr" customClass="ViewController" customModule="LoginTextField_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Rw-iu-ey2"/>
+                        <viewControllerLayoutGuide type="bottom" id="VU2-Mb-q3E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mhw-bT-alr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hcr-Ul-T7G" customClass="LoginTextField" customModule="LoginTextField">
+                                <rect key="frame" x="32.5" y="187" width="310" height="35"/>
+                                <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.96818405389999995" green="0.58194106820000002" blue="0.59020966289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="TvG-80-KZN"/>
+                                    <constraint firstAttribute="height" constant="35" id="coV-4M-o3C"/>
+                                </constraints>
+                                <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="user-field-icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                        <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="errorBorderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="This will show error" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eOS-NP-YfI" customClass="LoginTextField" customModule="LoginTextField">
+                                <rect key="frame" x="32" y="445" width="310" height="35"/>
+                                <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.96818405389999995" green="0.58194106820000002" blue="0.59020966289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Sxy-W2-GAg"/>
+                                    <constraint firstAttribute="width" constant="310" id="Y3B-aw-PcH"/>
+                                </constraints>
+                                <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="user-field-icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                        <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="errorBorderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="This will show erroras a bordered field" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v5D-e9-kJs" customClass="LoginTextField" customModule="LoginTextField">
+                                <rect key="frame" x="32" y="488" width="310" height="35"/>
+                                <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.96818405389999995" green="0.58194106820000002" blue="0.59020966289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="QVd-Rx-Lvu"/>
+                                    <constraint firstAttribute="width" constant="310" id="pc0-Oc-oOf"/>
+                                </constraints>
+                                <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="user-field-icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                        <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.68659323449999998" green="0.84455484150000004" blue="0.47576683759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="errorBorderWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7o9-qu-VLj" customClass="LoginTextField" customModule="LoginTextField">
+                                <rect key="frame" x="32" y="230" width="310" height="35"/>
+                                <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.96818405389999995" green="0.58194106820000002" blue="0.59020966289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="I7p-Di-38v"/>
+                                    <constraint firstAttribute="height" constant="35" id="Nds-z5-cS0"/>
+                                </constraints>
+                                <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                        <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showPasswordApperanceButton" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Attributed Placeholder Text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sdT-mP-pRl" customClass="LoginTextField" customModule="LoginTextField">
+                                <rect key="frame" x="32" y="273" width="310" height="35"/>
+                                <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="8Ae-rs-URM"/>
+                                    <constraint firstAttribute="height" constant="35" id="bEl-Wt-GJH"/>
+                                </constraints>
+                                <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="0.50502996580000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                        <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VGY-P2-yp3" customClass="LoginTextField" customModule="LoginTextField">
+                                <rect key="frame" x="32" y="316" width="310" height="35"/>
+                                <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="BbQ-uA-RQv"/>
+                                    <constraint firstAttribute="width" constant="310" id="Qqg-ve-Uha"/>
+                                </constraints>
+                                <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                        <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pid-BA-dYL" customClass="LoginTextField" customModule="LoginTextField">
+                                <rect key="frame" x="32" y="359" width="310" height="35"/>
+                                <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="GOm-Zz-vg7"/>
+                                    <constraint firstAttribute="height" constant="35" id="IGN-6j-Fak"/>
+                                </constraints>
+                                <color key="textColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                        <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.68659323449999998" green="0.84455484150000004" blue="0.47576683759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oXC-ev-rQQ" customClass="LoginTextField" customModule="LoginTextField">
+                                <rect key="frame" x="32" y="402" width="310" height="35"/>
+                                <color key="backgroundColor" red="0.89009910820000004" green="0.89025193449999995" blue="0.89008945230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="QA1-oa-SOz"/>
+                                    <constraint firstAttribute="height" constant="35" id="u2i-4E-vW6"/>
+                                </constraints>
+                                <color key="textColor" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="password-field-icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="defaultColor">
+                                        <color key="value" red="0.96254223589999999" green="0.7295833826" blue="0.2384157777" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.96818405389999995" green="0.58194106820000002" blue="0.59020966289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                        <color key="value" red="0.72932237389999999" green="0.19976213570000001" blue="0.30291530490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" red="0.09125617892" green="0.10043854269999999" blue="0.58661150929999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.6603552103" green="0.7228954434" blue="0.86824649570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EiJ-XV-YE9">
+                                <rect key="frame" x="249" y="531" width="93" height="30"/>
+                                <state key="normal" title="Remove error"/>
+                                <connections>
+                                    <action selector="removeError:" destination="x6O-fn-5Hr" eventType="touchUpInside" id="XiL-NM-CW7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hT1-J0-EsB">
+                                <rect key="frame" x="32" y="531" width="76" height="30"/>
+                                <state key="normal" title="Show error"/>
+                                <connections>
+                                    <action selector="showError:" destination="x6O-fn-5Hr" eventType="touchUpInside" id="LHb-7i-6Vp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.072463311249999995" green="0.3681018949" blue="0.43118715289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EiJ-XV-YE9" firstAttribute="top" secondItem="v5D-e9-kJs" secondAttribute="bottom" constant="8" id="77D-Nf-G2E"/>
+                            <constraint firstItem="hT1-J0-EsB" firstAttribute="leading" secondItem="v5D-e9-kJs" secondAttribute="leading" id="9Zw-UA-B6j"/>
+                            <constraint firstItem="oXC-ev-rQQ" firstAttribute="centerX" secondItem="pid-BA-dYL" secondAttribute="centerX" id="AU9-yb-vHs"/>
+                            <constraint firstItem="sdT-mP-pRl" firstAttribute="top" secondItem="7o9-qu-VLj" secondAttribute="bottom" constant="8" id="KLS-Fo-f2k"/>
+                            <constraint firstItem="oXC-ev-rQQ" firstAttribute="top" secondItem="pid-BA-dYL" secondAttribute="bottom" constant="8" id="M3T-up-k9L"/>
+                            <constraint firstItem="v5D-e9-kJs" firstAttribute="centerX" secondItem="eOS-NP-YfI" secondAttribute="centerX" id="Om2-H9-N9U"/>
+                            <constraint firstItem="hcr-Ul-T7G" firstAttribute="centerX" secondItem="mhw-bT-alr" secondAttribute="centerX" id="Vsw-Ct-n3o"/>
+                            <constraint firstItem="eOS-NP-YfI" firstAttribute="top" secondItem="oXC-ev-rQQ" secondAttribute="bottom" constant="8" id="X9p-BT-IEv"/>
+                            <constraint firstItem="eOS-NP-YfI" firstAttribute="centerX" secondItem="oXC-ev-rQQ" secondAttribute="centerX" id="Z9B-Y5-Hlc"/>
+                            <constraint firstItem="7o9-qu-VLj" firstAttribute="top" secondItem="hcr-Ul-T7G" secondAttribute="bottom" constant="8" id="Zh4-eN-HUr"/>
+                            <constraint firstItem="EiJ-XV-YE9" firstAttribute="trailing" secondItem="v5D-e9-kJs" secondAttribute="trailing" id="b6X-Nw-Cmt"/>
+                            <constraint firstItem="hT1-J0-EsB" firstAttribute="top" secondItem="v5D-e9-kJs" secondAttribute="bottom" constant="8" id="e3g-xf-6gp"/>
+                            <constraint firstItem="VGY-P2-yp3" firstAttribute="centerX" secondItem="sdT-mP-pRl" secondAttribute="centerX" id="ehL-vC-FgW"/>
+                            <constraint firstItem="7o9-qu-VLj" firstAttribute="centerX" secondItem="hcr-Ul-T7G" secondAttribute="centerX" id="fFW-Nm-1sI"/>
+                            <constraint firstItem="VGY-P2-yp3" firstAttribute="top" secondItem="sdT-mP-pRl" secondAttribute="bottom" constant="8" id="mVn-tz-NVx"/>
+                            <constraint firstItem="v5D-e9-kJs" firstAttribute="top" secondItem="eOS-NP-YfI" secondAttribute="bottom" constant="8" id="mWb-sY-s5f"/>
+                            <constraint firstItem="pid-BA-dYL" firstAttribute="top" secondItem="VGY-P2-yp3" secondAttribute="bottom" constant="8" id="ni3-E4-QSj"/>
+                            <constraint firstItem="sdT-mP-pRl" firstAttribute="centerX" secondItem="7o9-qu-VLj" secondAttribute="centerX" id="qlD-j2-2aD"/>
+                            <constraint firstItem="pid-BA-dYL" firstAttribute="centerX" secondItem="VGY-P2-yp3" secondAttribute="centerX" id="uh5-X0-ELH"/>
+                            <constraint firstItem="VGY-P2-yp3" firstAttribute="centerY" secondItem="mhw-bT-alr" secondAttribute="centerY" id="y8u-6z-ygH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="48C-Dn-khX"/>
+                    </view>
+                    <connections>
+                        <outlet property="errorShowingBorderredField" destination="v5D-e9-kJs" id="3SC-1W-BZj"/>
+                        <outlet property="errorShowingField" destination="eOS-NP-YfI" id="Dg9-qF-NwU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IZj-1D-EfH" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="78" y="-54"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="password-field-icon" width="20" height="20"/>
+        <image name="user-field-icon" width="20" height="20"/>
+    </resources>
+</document>
