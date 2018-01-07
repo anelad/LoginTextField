@@ -1,6 +1,0 @@
-framework module LoginTextField {
-  umbrella header "LoginTextField-umbrella.h"
-
-  export *
-  module * { export * }
-}
