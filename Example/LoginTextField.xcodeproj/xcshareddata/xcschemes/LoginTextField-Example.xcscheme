@@ -48,10 +48,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "LoginTextField_Tests.xctest"
-               BlueprintName = "LoginTextField_Tests"
-               ReferencedContainer = "container:LoginTextField.xcodeproj">
+               BlueprintIdentifier = "FBD9B913A47DD84590AB2D0346DA1D40"
+               BuildableName = "LoginTextField-Unit-Tests.xctest"
+               BlueprintName = "LoginTextField-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
