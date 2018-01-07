@@ -3,6 +3,7 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
+osx_image: xcode9.2
 cache: bundler
 
 env:
@@ -14,6 +15,7 @@ env:
   - EXAMPLE_SCHEME="LoginTextField-Example"
   matrix:
     - DESTINATION="OS=11.1,name=iPhone 7 Plus"          SCHEME="$IOS_FRAMEWORK_SCHEME"      RUN_TESTS="YES" BUILD_EXAMPLE="YES" POD_LINT="YES"
+    - DESTINATION="OS=10.3.1,name=iPhone 7 Plus"   SCHEME="$IOS_FRAMEWORK_SCHEME"      RUN_TESTS="YES" BUILD_EXAMPLE="YES" POD_LINT="NO"
     
 before_install:
   - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
